@@ -35,6 +35,3 @@ class Solution:
 # solution = Solution()
 # print(solution.evalRPN(["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]))
 # print(solution.evalRPN(["4", "13", "5", "/", "+"]))
-
-queue = [1, 2, 3]
-print(queue.pop(0))
