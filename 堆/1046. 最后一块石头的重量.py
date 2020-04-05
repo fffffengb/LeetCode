@@ -74,4 +74,7 @@ class Solution:
 
 
 solution = Solution()
-print(solution.lastStoneWeight([0, 1]))
+
+arr = [3, 2, 3, 1, 2, 4, 5, 5, 6]
+arr.sort()
+print(arr)
