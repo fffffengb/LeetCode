@@ -4,6 +4,7 @@ class Solution:
         res[0] = res[1] = 1
         for i in range(2, n + 1):
             for root in range(1, i + 1):
+                # 左子树的节点数量是root-1, 右子树是i-root
                 res[i] += res[root - 1] * res[i - root]
 
         return res[-1]
